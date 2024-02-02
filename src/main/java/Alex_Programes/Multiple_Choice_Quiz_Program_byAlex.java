@@ -40,7 +40,7 @@ public class Multiple_Choice_Quiz_Program_byAlex {
 	System.out.println("3rd qoustion answer is ");
 	Actual_Answer[2]= Scan.next();
     for(int i=0;i<2;i++) {
-    	if(ExpectedAnswers[i].equalsIgnoreCase(Actual_Answer[i]));
+    	if(ExpectedAnswers[i].equalsIgnoreCase(Actual_Answer[i]))
     	Score++;
     }
     System.out.println("Your score is " +Score +"/3");

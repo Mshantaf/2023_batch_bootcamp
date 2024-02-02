@@ -14,6 +14,8 @@ public class Scaner {
 	System.out.println("pay/week= "  );
 	double pay= Hourly_rate*Hourperweek;
 	System.out.println("pay=" + pay + "$");
+	scanner.close()	;
+
 	
 
 	}

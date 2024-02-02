@@ -1,6 +1,7 @@
 package Java_fundemintals;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Array_exc {
@@ -40,7 +41,17 @@ public class Array_exc {
     System.out.println(Family);
     
     //print using for each loop
-    for(String FamilyMember:Family) {System.out.print(FamilyMember+"  ");}
+    for(String FamilyMember:Family) {System.out.println(FamilyMember+" for loop ");}
+    
+    //print using Iterator 
+    Iterator <String> ite = Family.iterator();
+    while (ite.hasNext()) {
+    	System.out.println (ite.next()+ "  this iterator");
+    }
+    
+    // print using for each loop
+     Family.forEach(System.out :: println);
+    
 
 	// Array list using Scanner and while loop
     String Sentences=" Hello world ";

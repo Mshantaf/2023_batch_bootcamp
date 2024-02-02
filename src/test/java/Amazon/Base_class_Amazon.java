@@ -21,7 +21,7 @@ public class Base_class_Amazon {
   public void beforeMethod() throws InterruptedException {
 	  
 	  
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Moe\\eclipse-workspace\\first\\drivers\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\mshan\\git\\repository6\\2023_batch_bootcamp\\drivers\\chromedriver.exe"); 
 	  driver=new ChromeDriver();
 	  driver.get("https://www.amazon.com/");
 	  driver.manage().window().maximize();
@@ -43,11 +43,11 @@ public class Base_class_Amazon {
 	  Thread.sleep(3000);
 	  driver.close();
   }
-  public void shots_wd() throws IOException {   
-	  Date dt =new Date();
-	String name_dt=  dt.toString().replace(" ", "_").replace(":", "_");
- File cap=  ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
- FileHandler.copy(cap, new File("C:\\Users\\Moe\\eclipse-workspace\\2023_batch_bootcamp\\pic\\"+name_dt+".png"));
-  }
+//  public void shots_wd() throws IOException {   
+//	  Date dt =new Date();
+//	String name_dt=  dt.toString().replace(" ", "_").replace(":", "_");
+// File cap=  ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+// FileHandler.copy(cap, new File("C:\\Users\\Moe\\eclipse-workspace\\2023_batch_bootcamp\\pic\\"+name_dt+".png"));
+//  }
 
 }
