@@ -1,4 +1,6 @@
 package Java_fundemintals;
+//تشير الى قيمة المتغير في الكلاس الموجودة فيه كلمة ذيس ، 
+//اما كلمة سوبر تشير الى البيرنت كلاس وليس التشايلد
 //https://www.youtube.com/watch?v=CSWrefLneXE&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=80
 // ذيس كي وورد لاتعمل مع الاستاتيك
 //عشان ماتلخبط ممكن ن تغير اسماء المتغيرات 

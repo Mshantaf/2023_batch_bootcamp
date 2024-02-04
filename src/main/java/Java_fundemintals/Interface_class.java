@@ -6,7 +6,8 @@ package Java_fundemintals;
 // الفرق بينه وبين البستراكت يتم انشاء البيهفيار  للميثود في الماين ودائما مافي كود في الانترفيس 
 //الميثود داخل الانترفيس مابتحتاج كيرلي بريسيز الي هو بدي لأنك رح تدخلة في الماين
 //بنستعمل الماين كلاس لأستدعاء الميثود لأنهم صارو داخل الميثود وعليهم اوفر رايد
-
+//Interface : its contract that says any class implement 
+//this interface has to provide their own implementation of the method specified by the interface
  interface outLine {
 //ريتيرن تايب ميثود	
 //اذا في ريتيرن دايما لازم نعيم التايب للميثود

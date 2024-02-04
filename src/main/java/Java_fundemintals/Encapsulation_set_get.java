@@ -4,22 +4,35 @@ public class Encapsulation_set_get {
 	
 	private int age;
 	private String Name;
+	private String r;
 	
-	public void setAge(int NewAge ) {
-		NewAge=age;
+//	public String getR() {
+//		return r;
+//	}
+//
+//	public void setR(String r) {
+//		this.r = r;
+//	}
+
+	public void setAge(int age ) {
+		this.age=age+5;
+		
 	}
 	
 	public int getAge() {
 		return age;
 	}
 	public void   setName(String NewName) {
-	NewName= Name;	
+	Name=NewName;	
 	}
 	public String GetName() {
-	return Name;	
+		
+	return Name + " is student";	}
 	}
+
 	
+
 	
 	
 
-}
+
