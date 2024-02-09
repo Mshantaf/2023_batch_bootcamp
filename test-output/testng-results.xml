@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-17T00:45:49 EST" name="Default suite" finished-at="2024-01-17T00:46:04 EST" duration-ms="14077">
+  <suite started-at="2024-02-07T09:00:28 EST" name="Default suite" finished-at="2024-02-07T09:00:39 EST" duration-ms="11444">
     <groups>
     </groups>
-    <test started-at="2024-01-17T00:45:49 EST" name="Default test" finished-at="2024-01-17T00:46:04 EST" duration-ms="14077">
+    <test started-at="2024-02-07T09:00:28 EST" name="Default test" finished-at="2024-02-07T09:00:39 EST" duration-ms="11444">
       <class name="Amazon.Base_class_Amazon">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Amazon.Base_class_Amazon@7c711375]" started-at="2024-01-17T00:45:50 EST" name="beforeMethod" finished-at="2024-01-17T00:46:00 EST" duration-ms="10316" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Amazon.Base_class_Amazon@7c711375]" started-at="2024-02-07T09:00:28 EST" name="beforeMethod" finished-at="2024-02-07T09:00:36 EST" duration-ms="8254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:Amazon.Base_class_Amazon@7c711375]" started-at="2024-01-17T00:46:00 EST" name="f" finished-at="2024-01-17T00:46:00 EST" duration-ms="19" status="FAIL">
+        <test-method signature="f()[pri:0, instance:Amazon.Base_class_Amazon@7c711375]" started-at="2024-02-07T09:00:36 EST" name="f" finished-at="2024-02-07T09:00:36 EST" duration-ms="19" status="FAIL">
           <exception class="java.lang.Error">
             <message>
               <![CDATA[Unresolved compilation problem: 
@@ -57,7 +57,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Amazon.Base_class_Amazon@7c711375]" started-at="2024-01-17T00:46:00 EST" name="afterMethod" finished-at="2024-01-17T00:46:04 EST" duration-ms="3512" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Amazon.Base_class_Amazon@7c711375]" started-at="2024-02-07T09:00:36 EST" name="afterMethod" finished-at="2024-02-07T09:00:39 EST" duration-ms="3126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

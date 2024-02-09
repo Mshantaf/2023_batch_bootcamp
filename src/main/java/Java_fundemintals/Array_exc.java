@@ -52,7 +52,7 @@ public class Array_exc {
     // print using for each loop
      Family.forEach(System.out :: println);
     
-
+     
 	// Array list using Scanner and while loop
     String Sentences=" Hello world ";
     Scanner Scan =new Scanner(Sentences);

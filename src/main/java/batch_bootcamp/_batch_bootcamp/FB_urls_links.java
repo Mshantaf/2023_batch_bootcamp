@@ -12,7 +12,7 @@ public class FB_urls_links {
 
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Moe\\eclipse-workspace\\first\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mshan\\git\\repository6\\2023_batch_bootcamp\\drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();

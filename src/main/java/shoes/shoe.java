@@ -2,8 +2,8 @@ package shoes;
 
  class shoe {
 
-	final String brand ;
-	final double size;
+	 String brand ;
+	 double size;
 	
 	shoe(String brand ,double size ){
 		this.brand=brand;
@@ -16,7 +16,10 @@ class walking extends shoe {
 	walking(String brand, double size, boolean goreTex) {
 		super(brand, size);
 		this.goreTex=goreTex;
-	}}
+	}
+	public String toString() {
+		return brand + " " + size + " " + goreTex ;}
+}
 
 class running extends shoe{
     double weight;
@@ -24,6 +27,9 @@ class running extends shoe{
 		super(brand, size);
 		this.weight=weight;
 	}
+	public String toString() {
+		return brand + " " + size + " " + weight;
+		}
 	
 }
 	

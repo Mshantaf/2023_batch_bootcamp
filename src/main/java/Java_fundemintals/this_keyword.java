@@ -4,7 +4,7 @@ package Java_fundemintals;
 //https://www.youtube.com/watch?v=CSWrefLneXE&list=PL59LTecnGM1NRUyune3SxzZlYpZezK-oQ&index=80
 // ذيس كي وورد لاتعمل مع الاستاتيك
 //عشان ماتلخبط ممكن ن تغير اسماء المتغيرات 
-//اذا بدك ترجع تستخدم ذيس كي وورد شيل كلمة ستاتيك الا من الماسن ميثود
+//اذا بدك ترجع تستخدم ذيس كي وورد شيل كلمة ستاتيك الا من الماين ميثود
 
 class try_1 {
 // int a;

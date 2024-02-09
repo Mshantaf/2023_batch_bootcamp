@@ -1,5 +1,9 @@
 package Java_fundemintals;
-
+//برنامج بس بقبل ارقام 
+//عملنا سكانر
+//وايل لوب ودايما ترو
+//اذا ادخلنا رقم بتوقف عند بريك
+//اذا ادخلنا حروف او اي اشي مش انتجر بصير خطا ، لكن مابوقف البرنامج عشان تراي اند كاتش
 import java.util.Scanner;
 
 public class try_cache {
@@ -13,7 +17,7 @@ public class try_cache {
         System.out.println(a);
         break;
     }catch(Exception e) {
-        System.out.println("only numbers, enter number ");	
+        System.out.println("Only numbers, enter number " + e);	
       scan.nextLine();
 
     }
