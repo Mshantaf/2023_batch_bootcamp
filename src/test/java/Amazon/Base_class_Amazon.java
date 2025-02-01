@@ -1,6 +1,9 @@
 package Amazon;
 
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
@@ -17,32 +20,30 @@ import org.testng.annotations.AfterMethod;
 
 public class Base_class_Amazon {
 	public WebDriver driver;
-  @BeforeMethod
-  public void beforeMethod() throws InterruptedException {
-	  
-	  
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\mshan\\git\\repository6\\2023_batch_bootcamp\\drivers\\chromedriver.exe"); 
-	  driver=new ChromeDriver();
-	  driver.get("https://www.amazon.com/");
-	  driver.manage().window().maximize();
-	  Thread.sleep(5000);
-  }
-  
-  @Test
-  public void f() throws IOException {
-	  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-	  POM_Amazon Amazon = new POM_Amazon(driver);
-	  Amazon.search_tab();
-	  shots_wd();
-  }
 
-  
-  
-  @AfterMethod
-  public void afterMethod() throws InterruptedException {
-	  Thread.sleep(3000);
-	  driver.close();
-  }
+	@BeforeMethod
+	public void beforeMethod() throws InterruptedException {
+
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://www.amazon.com/");
+		driver.manage().window().maximize();
+		Thread.sleep(5000);
+	}
+
+	@Test
+	public void f() throws IOException {
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		POM_Amazon Amazon = new POM_Amazon(driver);
+		Amazon.search_tab();
+//		shots_wd();
+	}
+
+	@AfterMethod
+	public void afterMethod() throws InterruptedException {
+		Thread.sleep(3000);
+		driver.close();
+	}
 //  public void shots_wd() throws IOException {   
 //	  Date dt =new Date();
 //	String name_dt=  dt.toString().replace(" ", "_").replace(":", "_");
